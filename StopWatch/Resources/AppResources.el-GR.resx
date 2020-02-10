@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>el-GR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarClearLapsButton" xml:space="preserve">
+    <value>Σαφές γύρους</value>
+  </data>
+  <data name="AppBarEmailButton" xml:space="preserve">
+    <value>Ηλεκτρονικό ταχυδρομείο</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Σχετικά με</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Επιλογές</value>
+  </data>
+  <data name="AppMenuItemReview" xml:space="preserve">
+    <value>Αναθεώρηση</value>
+  </data>
+  <data name="DeleteAllLapDataMessage" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να διαγράψετε όλα τα δεδομένα αγκαλιά;</value>
+  </data>
+  <data name="DeleteLapsTitle" xml:space="preserve">
+    <value>Διαγραφή γύρους</value>
+  </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Χρονόμετρο δεδομένων</value>
+  </data>
+  <data name="ExceedText" xml:space="preserve">
+    <value>Υπερβαίνει</value>
+  </data>
+  <data name="LapText" xml:space="preserve">
+    <value>Αγκαλιά</value>
+  </data>
+  <data name="MaxTimeExceededMessage" xml:space="preserve">
+    <value>Μέγιστος χρόνος υπέρβαση.</value>
+  </data>
+  <data name="PauseText" xml:space="preserve">
+    <value>Παύση</value>
+  </data>
+  <data name="ResetMessage" xml:space="preserve">
+    <value>Επαναφορά με διαγράψει όλα αγκαλιά δεδομένων.  Προχωρήσει;</value>
+  </data>
+  <data name="ResetText" xml:space="preserve">
+    <value>Επαναφορά</value>
+  </data>
+  <data name="ResumeText" xml:space="preserve">
+    <value>Βιογραφικό</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>Έναρξη</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Περισσότερα Apps</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>Οθόνη κλειδαριών</value>
+  </data>
+  <data name="StopWatchOptions" xml:space="preserve">
+    <value>Χρονόμετρο επιλογές</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Καλύτερο χρονόμετρο με διακόπτη στο κατάστημα Windows Phone!
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Ηλεκτρονικό ταχυδρομείο αγκαλιά και διάσπαση φορές
+* Τρέχουν κάτω από την οθόνη κλειδαριών
+* Θέστε εκτός λειτουργίας οθόνη κλειδαριών
+* Και οι δύο διαίρεση και συνολικό χρόνο
+* Μεγάλη, ευανάγνωστη ρολόι
+* Τοπίο υποστήριξη για μεγάλους αριθμούς
+
+Κατεβάστε αυτό το app σήμερα!</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Χρονόμετρο</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Χρονόμετρο</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Φύλο</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Παρέλθει</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Σπλιτ</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Αριθμός/Split/αγκαλιά</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Ποσοστό</value>
+  </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Αφαιρέσει τις διαφήμισεις</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Άτομα με ειδικές ανάγκες</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Ενεργοποιημένη</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Συναγερμών αντίστροφης μέτρησης</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Αντίστροφη μέτρηση επιλογές</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Προεπιλεγμένο χρόνο αντίστροφης μέτρησης</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Εγγραφή</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Αντίστροφη μέτρηση ολοκληρωθεί!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Αντίστροφη μέτρηση</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Χρονόμετρο</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Χρόνος που πέρασε:</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Αντίστροφη μέτρηση</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Ποσοστό ενεργοποιώ την αντίστροφη μέτρηση</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Χρήση AppBar μενού για να ενεργοποιήσετε την αντίστροφη μέτρηση</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Καλύτερο χρονόμετρο με διακόπτη στο κατάστημα Windows Phone!
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Ηλεκτρονικό ταχυδρομείο αγκαλιά και διάσπαση φορές
+* Τρέχουν κάτω από την οθόνη κλειδαριών
+* Θέστε εκτός λειτουργίας οθόνη κλειδαριών
+* Και οι δύο διαίρεση και συνολικό χρόνο
+* Μεγάλη, ευανάγνωστη ρολόι
+* Τοπίο υποστήριξη για μεγάλους αριθμούς
+* Αντίστροφη μέτρηση χρονομετρητής
+
+Κατεβάστε αυτό το app σήμερα!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Χρονόμετρο</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Χρονόμετρο</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Αντίστροφη μέτρηση</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Προπόνηση</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Άσκηση</value>
+  </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Είστε βέβαιοι ότι θέλετε να διαγράψετε όλα τα δεδομένα εγγραφής;</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Διαγραφή εγγραφών</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Αγορά!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Δίκη σας έχει λήξει, παρακαλώ να αγοράσει την εφαρμογή!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> μέρες που παρέμεινα στη ΔΙΚΗ σας.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Επεκτείνει δίκη για 10 ημέρες, με την εκτίμηση της εφαρμογής;</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Επεκτείνει τη δίκη;</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Έχετε </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Χρονόμετρο</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Θα θέλατε να μοιραστείτε τα σχόλιά σας μαζί μας, με την εκτίμηση το χρονόμετρο στην αγορά;</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Παρακαλώ μοιραστείτε τα σχόλιά σας μαζί μας με την εκτίμηση το χρονόμετρο στην αγορά να αφαιρέσω τη διαφήμιση. Προχωρήσει;</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Παρακαλώ μοιραστείτε τα σχόλιά σας με μας από την βαθμολογία στο χρονόμετρο στην αγορά για να προσθέσετε λειτουργικότητα αντίστροφη μέτρηση. Προχωρήσει;</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
+  </data>
+</root>

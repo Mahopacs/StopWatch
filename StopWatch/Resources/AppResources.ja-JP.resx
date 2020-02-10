@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ja-JP</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarClearLapsButton" xml:space="preserve">
+    <value>周回数します。</value>
+  </data>
+  <data name="AppBarEmailButton" xml:space="preserve">
+    <value>電子メール</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="AppMenuItemReview" xml:space="preserve">
+    <value>レビュー</value>
+  </data>
+  <data name="DeleteAllLapDataMessage" xml:space="preserve">
+    <value>ラップのすべてのデータを削除するもよろしいですか。</value>
+  </data>
+  <data name="DeleteLapsTitle" xml:space="preserve">
+    <value>ラップを削除します。</value>
+  </data>
+  <data name="ExceedText" xml:space="preserve">
+    <value>超える</value>
+  </data>
+  <data name="LapText" xml:space="preserve">
+    <value>ラップ</value>
+  </data>
+  <data name="MaxTimeExceededMessage" xml:space="preserve">
+    <value>最大時間を超えました。</value>
+  </data>
+  <data name="PauseText" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="ResetMessage" xml:space="preserve">
+    <value>リセットの消去ではすべてのデータをラップします。続行しますか。</value>
+  </data>
+  <data name="ResetText" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="ResumeText" xml:space="preserve">
+    <value>再開</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>多くのアプリケーション</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>ロック画面</value>
+  </data>
+  <data name="StopWatchOptions" xml:space="preserve">
+    <value>ストップウォッチのオプション</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>ストップウォッチ</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>タイマー</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>セックス</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>タイマー データ</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>経過時間</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>分割</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>数/スプリット/ラップ</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>最高の Windows Phone 店で時計を停止 ！
+
+機能は含みます。
+
+* E メール ラップと分割回
+* ロック スクリーンの下で実行しています。
+* ロック スクリーンを無効にします。
+* 分割と合計時間
+* 大規模な簡単に時計を読む
+* サポートの大きな番号を風景します。
+
+このアプリを今すぐダウンロード ！</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>レート</value>
+  </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>広告を削除します。</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>無効になっています。</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>有効になっています。</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>カウント ダウンのアラーム</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>カウント ダウンのオプション</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>既定のカウント ダウン時間</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>レコード</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>カウント ダウン終了 ！</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>カウント ダウン</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>ストップウォッチ</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>経過時間:</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>カウント ダウン</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>速度のカウント ダウンを有効にするには</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>AppBar のメニューを使用してカウント ダウンを有効にします。</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>最高の Windows Phone ストアに時計を停止 ！
+
+機能は含みます。
+
+* メールでラップ回分割と
+* ロック画面下で実行しています。
+* ロック画面を無効にします。
+* 分割と合計時間
+* 大規模な時計を読みやすい
+* 大きな数字のための風景のサポート
+* カウント ダウン タイマー
+
+今日このアプリをダウンロード ！</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>ストップウォッチ</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>タイマー</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>カウント ダウン</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>ワークアウト</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>運動</value>
+  </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>すべてのレコードのデータを削除してもよろしいですか。</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>レコードを削除します。</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>購入 ！</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>試用版の有効期限が切れて、アプリケーションを購入してください ！</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>お試し版の残り日数。</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>10 日試用版アプリケーションを評価して拡張ですか？</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>試用版を拡張？</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>あります。</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ストップウォッチ</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！マーケットプ レースでストップウォッチの定格によって評価した私たちとあなたのフィードバックを共有する希望ですか？</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>このアプリは？ のような誰もが知っている聞かせて ！ご意見を共有私たちのマーケットプ レースでストップウォッチの定格によって評価しました。</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>ご意見を共有私たちと広告を削除する、市場でストップウォッチの定格によって評価しました。続行しますか。</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>ご意見を共有私たちとカウント ダウン機能を追加する、市場でストップウォッチの定格によって評価しました。続行しますか。</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
+  </data>
+</root>

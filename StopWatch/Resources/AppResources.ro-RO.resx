@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ro-RO</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarClearLapsButton" xml:space="preserve">
+    <value>Clar ture</value>
+  </data>
+  <data name="AppBarEmailButton" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Opţiuni</value>
+  </data>
+  <data name="AppMenuItemReview" xml:space="preserve">
+    <value>Revizuire</value>
+  </data>
+  <data name="DeleteAllLapDataMessage" xml:space="preserve">
+    <value>Sunteţi sigur că doriţi să ştergeţi toate datele de poala?</value>
+  </data>
+  <data name="DeleteLapsTitle" xml:space="preserve">
+    <value>Ştergeţi ture</value>
+  </data>
+  <data name="ExceedText" xml:space="preserve">
+    <value>Depăşească</value>
+  </data>
+  <data name="LapText" xml:space="preserve">
+    <value>Poală</value>
+  </data>
+  <data name="MaxTimeExceededMessage" xml:space="preserve">
+    <value>Timp maxim de depăşit.</value>
+  </data>
+  <data name="PauseText" xml:space="preserve">
+    <value>Pauză</value>
+  </data>
+  <data name="ResetMessage" xml:space="preserve">
+    <value>Resetarea cu şterge toate poală date.  Proceda?</value>
+  </data>
+  <data name="ResetText" xml:space="preserve">
+    <value>Resetare</value>
+  </data>
+  <data name="ResumeText" xml:space="preserve">
+    <value>CV-ul</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>Începe</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Mai multe aplicaţii</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>Blocare ecran</value>
+  </data>
+  <data name="StopWatchOptions" xml:space="preserve">
+    <value>Cronometru opţiuni</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>sex</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>Cronometru date</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>Scurs</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>Split/numărul/tur</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Rata</value>
+  </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>Elimina publicitate</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Cu handicap</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Activat</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>Numărătoare inversă de alarmă</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>Numărătoarea inversă opţiuni</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>Implicit Countdown timp</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Înregistrare</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>Numărătoarea inversă a terminat!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>Numărătoarea inversă</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Timp scurs:</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Numărătoarea inversă</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>Rata pentru a permite numărătoarea inversă</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>Utilizaţi AppBar meniu pentru a activa Countdown</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>DisableLockScreenTimeout</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>Numărătoarea inversă</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>Antrenament</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Exercitarea</value>
+  </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>Sunteţi sigur că doriţi să ştergeţi toate datele de înregistrare?</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>Ştergeţi înregistrările</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Cumpărare!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Vă proces a expirat, vă rugăm să cumpere aplicaţia!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> zile rămase în proces dumneavoastră.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>Prelungi proces la 10 zile de evaluare aplicarea?</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>Prelungi proces?</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>Aveţi </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Cronometru</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!  Doriţi să împărtăşiţi feedback-ul cu noi reiting cronometru pe piaţă?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Ca acest app? Lasa toata lumea ştie!  Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare cronometru pe piaţă.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare cronometru pe piaţă pentru a elimina publicitate. Proceda?</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>Vă rugăm să împărtăşesc feedback-ul cu noi de evaluare cronometru pe piaţă pentru a adăuga funcţionalitate numărătoarea inversă. Proceda?</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>BroughtToYouBy:</value>
+  </data>
+</root>

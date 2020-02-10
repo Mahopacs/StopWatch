@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="ar" />
+    <Language code="bg-BG" />
+    <Language code="ca-ES" />
+    <Language code="cs-CZ" />
+    <Language code="da-DK" />
+    <Language code="de" />
+    <Language code="el-GR" />
+    <Language code="en" />
+    <Language code="es" />
+    <Language code="et-EE" />
+    <Language code="fi-FI" />
+    <Language code="fr" />
+    <Language code="he-IL" />
+    <Language code="hi-IN" />
+    <Language code="hu-HU" />
+    <Language code="id-ID" />
+    <Language code="it" />
+    <Language code="ja-JP" />
+    <Language code="ko-KR" />
+    <Language code="lt-LT" />
+    <Language code="lv-LV" />
+    <Language code="nb-NO" />
+    <Language code="nl" />
+    <Language code="pl-PL" />
+    <Language code="pt" />
+    <Language code="ro-RO" />
+    <Language code="ru-RU" />
+    <Language code="sk-SK" />
+    <Language code="sl-SI" />
+    <Language code="sv" />
+    <Language code="th-TH" />
+    <Language code="tr-TR" />
+    <Language code="uk-UA" />
+    <Language code="vi-VN" />
+    <Language code="zh-Hans" />
+    <Language code="zh-Hant" />
+  </Languages>
+  <App xmlns="" ProductID="{95d1b021-56f6-48e9-a169-4649fcac2982}" Title="StopWatch" RuntimeType="Silverlight" Version="4.0.0.0" Genre="apps.normal" Author="StopWatch author" Description="Best Stop Watch in the Windows Phone Store!&#xD;&#xA;&#xD;&#xA;Features include:&#xD;&#xA;&#xD;&#xA;* Email Lap and Split Times&#xD;&#xA;* Running under Lock Screen&#xD;&#xA;* Disable Lock Screen&#xD;&#xA;* Both Split and Total Time&#xD;&#xA;* Large, easy to read clock&#xD;&#xA;* Landscape support for big numbers&#xD;&#xA;" Publisher="StopWatch" PublisherID="{6ac8ecff-57d1-4930-9fb2-ce8ee143bbbb}">
+    <IconPath IsRelative="true" IsResource="false">Assets\stop-watch-icon-small.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="StopWatchToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\stop-watch-icon-small.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\stop-watch-icon-medium.png</BackgroundImageURI>
+          <Title>StopWatch</Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
+          <HasLarge>
+          </HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>

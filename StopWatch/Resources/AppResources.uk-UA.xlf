@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="uk-UA" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="4.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">uk-UA</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Stopwatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Секундомір</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarClearLapsButton" translate="yes" xml:space="preserve">
+          <source>Clear Laps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зніміть кіл</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarEmailButton" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Електронна пошта</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Про</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemOptions" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Параметри</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemReview" translate="yes" xml:space="preserve">
+          <source>Review</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Огляд</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllLapDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all lap data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ви дійсно бажаєте видалити всі дані на колінах?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteLapsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Laps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Видалити кіл</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailSubject" translate="yes" xml:space="preserve">
+          <source>Timer Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Таймер даних</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExceedText" translate="yes" xml:space="preserve">
+          <source>Exceed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перевищувати</target>
+        </trans-unit>
+        <trans-unit id="Resx/LapText" translate="yes" xml:space="preserve">
+          <source>Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Коло</target>
+        </trans-unit>
+        <trans-unit id="Resx/MaxTimeExceededMessage" translate="yes" xml:space="preserve">
+          <source>Max time exceeded.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Макс перевищення часу.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PauseText" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пауза</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetMessage" translate="yes" xml:space="preserve">
+          <source>Resetting with erase all lap data.  Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Скидання з стерти всі ноутбуки даних.  Продовжити?</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetText" translate="yes" xml:space="preserve">
+          <source>Reset</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Скидання</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResumeText" translate="yes" xml:space="preserve">
+          <source>Resume</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Резюме</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartText" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Почати</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemMoreApps" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Більше додатків</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockScreen" translate="yes" xml:space="preserve">
+          <source>Lock Screen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Блокування екрану</target>
+        </trans-unit>
+        <trans-unit id="Resx/StopWatchOptions" translate="yes" xml:space="preserve">
+          <source>StopWatch Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Секундомір параметри</target>
+        </trans-unit>
+        <trans-unit id="Resx/Disabled" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Інваліди</target>
+        </trans-unit>
+        <trans-unit id="Resx/Enabled" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ввімкнено</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Краще зупинити годинник у сховищі Windows Phone!
+
+Функції включають в себе:
+
+* Електронна пошта на колінах і розкол рази
+* Під управлінням блокування екрану
+* Вимкнути блокування екрану
+* Як розділення і загальний час
+* Великі, легко читати годинник
+* Ландшафт підтримки для великих чисел
+
+Завантажити цю app сьогодні!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Секундомір</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Таймер</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
+          <source>Sex</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Стать</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Facebook</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зворотний відлік</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
+          <source>Elapsed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Минув</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader2" translate="yes" xml:space="preserve">
+          <source>Split</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Спліт</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
+          <source>Number/Split/Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Число, Спліт, коліна</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Курс</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  Would you like to share your feedback with us by rating the Stopwatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Як цей застосунок? Хай всі інші знають!  Хотів би поділитися ваш зворотний зв'язок з нами за рейтингом секундомір на ринку?</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  Please share your feedback with us by rating the Stopwatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Як цей застосунок? Хай всі інші знають!  Будь ласка, поділіться вашої зворотний зв'язок з нами рейтинговою секундомір на ринку.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemRemoveAdvertising" translate="yes" xml:space="preserve">
+          <source>Remove Advertising</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Видалити реклами</target>
+        </trans-unit>
+        <trans-unit id="Resx/RemoveAdvertisingQuestion" translate="yes" xml:space="preserve">
+          <source>Please share your feedback with us by rating the Stopwatch on the marketplace to remove advertising. Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Будь ласка, поділіться ваш зворотний зв'язок з нами за рейтингом секундомір на ринку для видалення реклами. Продовжити?</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownAlarm" translate="yes" xml:space="preserve">
+          <source>Countdown Alarm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зворотний відлік сигналізації</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownOptions" translate="yes" xml:space="preserve">
+          <source>Countdown Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зворотного відліку-параметри</target>
+        </trans-unit>
+        <trans-unit id="Resx/DefaultCountdownTime" translate="yes" xml:space="preserve">
+          <source>Default Countdown Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">За замовчуванням час зворотного відліку</target>
+        </trans-unit>
+        <trans-unit id="Resx/Record" translate="yes" xml:space="preserve">
+          <source>Record</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Запис</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddCountdownQuestion" translate="yes" xml:space="preserve">
+          <source>Please share your feedback with us by rating the Stopwatch on the marketplace to add Countdown functionality. Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Будь ласка, поділіться вашого зворотний зв'язок з нами рейтинговою секундомір на ринку, щоб додати функціональність зворотний відлік. Продовжити?</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Щоб увімкнути зворотного відліку</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
+          <source>Countdown Finished!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зворотний відлік закінчена!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Countdown" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зворотний відлік</target>
+        </trans-unit>
+        <trans-unit id="Resx/Stopwatch" translate="yes" xml:space="preserve">
+          <source>Stopwatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Секундомір</target>
+        </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Витрачений час:</target>
+        </trans-unit>
+        <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Використовуйте панель «програми» меню, щоб включити зворотний відлік</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ні</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Так</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Краще зупинити годинник в магазині Windows Phone!
+
+Особливості включають:
+
+* По електронній пошті на колінах і розділити разів
+* Під управлінням екран блокування
+* Вимкнути екран блокування
+* Спліт і всього часу
+* Великі, легко читається годинник
+* Ландшафт підтримку великих чисел
+* Зворотного відліку таймера
+
+Завантажити цей застосунок сьогодні!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Секундомір</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Таймер</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зворотний відлік</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Тренування</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вправа</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ви дійсно бажаєте видалити всі записи даних?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Видалення записів</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Покупки!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Завершився ознайомлювальний, будь ласка, купити додаток!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> днів, що залишилися в вашого суду.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Продовжити судовий розгляд до 10 днів шляхом рейтинг застосунок?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Продовжити суду?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">У вас є </target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>BroughtToYouBy:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BroughtToYouBy:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

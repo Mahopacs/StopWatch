@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ar</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarClearLapsButton" xml:space="preserve">
+    <value>لفات واضحة</value>
+  </data>
+  <data name="AppBarEmailButton" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>خيارات</value>
+  </data>
+  <data name="AppMenuItemReview" xml:space="preserve">
+    <value>استعراض</value>
+  </data>
+  <data name="DeleteAllLapDataMessage" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد حذف كافة البيانات الموجودة في اللفة؟</value>
+  </data>
+  <data name="DeleteLapsTitle" xml:space="preserve">
+    <value>حذف لفات</value>
+  </data>
+  <data name="ExceedText" xml:space="preserve">
+    <value>تتجاوز</value>
+  </data>
+  <data name="LapText" xml:space="preserve">
+    <value>اللفة</value>
+  </data>
+  <data name="MaxTimeExceededMessage" xml:space="preserve">
+    <value>تجاوز الحد الأقصى من الوقت.</value>
+  </data>
+  <data name="PauseText" xml:space="preserve">
+    <value>إيقاف مؤقت</value>
+  </data>
+  <data name="ResetMessage" xml:space="preserve">
+    <value>إعادة تعيين كافة اللفة مع محو البيانات.  هل تريد المتابعة؟</value>
+  </data>
+  <data name="ResetText" xml:space="preserve">
+    <value>إعادة تعيين</value>
+  </data>
+  <data name="ResumeText" xml:space="preserve">
+    <value>السيرة الذاتية</value>
+  </data>
+  <data name="StartText" xml:space="preserve">
+    <value>بدء تشغيل</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>المزيد من تطبيقات</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>قفل الشاشة</value>
+  </data>
+  <data name="StopWatchOptions" xml:space="preserve">
+    <value>ساعة توقيت الخيارات</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>ساعة توقيت</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>جهاز ضبط الوقت</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>الجنس</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>فيسبوك</value>
+  </data>
+  <data name="ColumnHeader1" xml:space="preserve">
+    <value>المنقضي</value>
+  </data>
+  <data name="ColumnHeader2" xml:space="preserve">
+    <value>سبليت</value>
+  </data>
+  <data name="EmailSubject" xml:space="preserve">
+    <value>بيانات جهاز ضبط الوقت</value>
+  </data>
+  <data name="EmailBody" xml:space="preserve">
+    <value>رقم/سبليت/اللفة</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>أفضل وقف يشاهد في مخزن Windows Phone!
+
+وتشمل الميزات:
+
+* البريد الإلكتروني اللفة وتقسيم الأوقات
+* يعمل تحت قفل الشاشة
+* تعطيل قفل الشاشة
+* كل من الانقسام وإجمالي الوقت
+* كبيرة وسهلة القراءة على مدار الساعة
+* تقديم الدعم للأرقام الكبيرة والمناظر الطبيعية
+
+تحميل هذا التطبيق اليوم!</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="AppMenuItemRemoveAdvertising" xml:space="preserve">
+    <value>إزالة الإعلانات</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>ذوي</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>تمكين</value>
+  </data>
+  <data name="CountdownAlarm" xml:space="preserve">
+    <value>إنذار العد التنازلي</value>
+  </data>
+  <data name="CountdownOptions" xml:space="preserve">
+    <value>خيارات العد التنازلي</value>
+  </data>
+  <data name="DefaultCountdownTime" xml:space="preserve">
+    <value>وقت العد التنازلي للافتراضي</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>سجل</value>
+  </data>
+  <data name="CountdownFinished" xml:space="preserve">
+    <value>انتهى العد التنازلي!</value>
+  </data>
+  <data name="Countdown" xml:space="preserve">
+    <value>العد التنازلي</value>
+  </data>
+  <data name="Stopwatch" xml:space="preserve">
+    <value>ساعة توقيت</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>الوقت المنقضي:</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>العد التنازلي</value>
+  </data>
+  <data name="AppMenuItemAddCountdown" xml:space="preserve">
+    <value>معدل لتمكين العد التنازلي</value>
+  </data>
+  <data name="HowToUnlockCountdown" xml:space="preserve">
+    <value>استخدم القائمة AppBar لتمكين العد التنازلي</value>
+  </data>
+  <data name="DisableLockScreenTimeout" xml:space="preserve">
+    <value>ديسابليلوكسكرينتيميوت</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>أفضل وقف يشاهد في مخزن Windows Phone!
+
+وتشمل الميزات:
+
+* البريد الإلكتروني اللفة وتقسيم الأوقات
+* يعمل تحت قفل الشاشة
+* تعطيل قفل الشاشة
+* كل من الانقسام وإجمالي الوقت
+* كبيرة، وسهلة القراءة على مدار الساعة
+* تقديم الدعم للأرقام الكبيرة والمناظر الطبيعية
+* العد التنازلي
+
+تحميل هذا التطبيق اليوم!</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>ساعة توقيت</value>
+  </data>
+  <data name="Z_KeyWord2" xml:space="preserve">
+    <value>جهاز ضبط الوقت</value>
+  </data>
+  <data name="Z_KeyWord3" xml:space="preserve">
+    <value>العد التنازلي</value>
+  </data>
+  <data name="Z_KeyWord4" xml:space="preserve">
+    <value>تجريب</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>ممارسة</value>
+  </data>
+  <data name="DeleteAllRecordDataMessage" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد حذف كافة بيانات السجل؟</value>
+  </data>
+  <data name="DeleteRecordsTitle" xml:space="preserve">
+    <value>حذف السجلات</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>شراء!</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>انتهت المحاكمة الخاصة بك، الرجاء شراء التطبيق!  </value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value> الأيام المتبقية في المحاكمة الخاصة بك.</value>
+  </data>
+  <data name="Trial1" xml:space="preserve">
+    <value>تمديد المحاكمة لمدة 10 أيام بتصنيف التطبيق؟</value>
+  </data>
+  <data name="Trial2" xml:space="preserve">
+    <value>تمديد المحاكمة؟</value>
+  </data>
+  <data name="YouHave" xml:space="preserve">
+    <value>لديك </value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ساعة توقيت</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  هل ترغب في تقاسم تعليقاتك معنا التصويت ساعة توقيت في السوق؟</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  يرجى حصة تعليقاتك معنا التصويت ساعة توقيت في السوق.</value>
+  </data>
+  <data name="RemoveAdvertisingQuestion" xml:space="preserve">
+    <value>يرجى حصة تعليقاتك معنا بتصنيف ساعة توقيت في السوق إزالة الإعلانات. هل تريد المتابعة؟</value>
+  </data>
+  <data name="AddCountdownQuestion" xml:space="preserve">
+    <value>يرجى حصة تعليقاتك معنا بتصنيف ساعة توقيت في السوق لإضافة وظيفة العد التنازلي. هل تريد المتابعة؟</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>بروغتويوبي:</value>
+  </data>
+</root>

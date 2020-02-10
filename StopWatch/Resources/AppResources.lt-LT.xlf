@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="lt-LT" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="StopWatch" product-version="4.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">lt-LT</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Stopwatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chronometras</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarClearLapsButton" translate="yes" xml:space="preserve">
+          <source>Clear Laps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aišku, ratų</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarEmailButton" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">El. paštas</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apie</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemOptions" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parinktys</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemReview" translate="yes" xml:space="preserve">
+          <source>Review</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apžvalga</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllLapDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all lap data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ar tikrai norite panaikinti visus rato duomenis?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteLapsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Laps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti ratus</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailSubject" translate="yes" xml:space="preserve">
+          <source>Timer Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikmačio duomenis</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExceedText" translate="yes" xml:space="preserve">
+          <source>Exceed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Viršyti</target>
+        </trans-unit>
+        <trans-unit id="Resx/LapText" translate="yes" xml:space="preserve">
+          <source>Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Juosmens</target>
+        </trans-unit>
+        <trans-unit id="Resx/MaxTimeExceededMessage" translate="yes" xml:space="preserve">
+          <source>Max time exceeded.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Viršytas maksimalus laikas.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PauseText" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pristabdyti</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetMessage" translate="yes" xml:space="preserve">
+          <source>Resetting with erase all lap data.  Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iš naujo nustatyti su ištrinti visus juosmens duomenų.  Tęsti?</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetText" translate="yes" xml:space="preserve">
+          <source>Reset</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nustatyti iš naujo</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResumeText" translate="yes" xml:space="preserve">
+          <source>Resume</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">CV</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartText" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pradėti</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemMoreApps" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Daugiau Apps</target>
+        </trans-unit>
+        <trans-unit id="Resx/LockScreen" translate="yes" xml:space="preserve">
+          <source>Lock Screen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Užrakto ekranas</target>
+        </trans-unit>
+        <trans-unit id="Resx/StopWatchOptions" translate="yes" xml:space="preserve">
+          <source>StopWatch Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chronometro funkcijos</target>
+        </trans-unit>
+        <trans-unit id="Resx/Disabled" translate="yes" xml:space="preserve">
+          <source>Disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Negalia</target>
+        </trans-unit>
+        <trans-unit id="Resx/Enabled" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Įjungtas</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppDescription" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</source>
+          <target state="new">Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+
+Download this app today!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chronometras</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikmatis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
+          <source>Sex</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">seksas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">"Facebook"</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Countdown</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader1" translate="yes" xml:space="preserve">
+          <source>Elapsed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Praeina</target>
+        </trans-unit>
+        <trans-unit id="Resx/ColumnHeader2" translate="yes" xml:space="preserve">
+          <source>Split</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Splitas</target>
+        </trans-unit>
+        <trans-unit id="Resx/EmailBody" translate="yes" xml:space="preserve">
+          <source>Number/Split/Lap</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Numeris/Split/juosmens</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Norma</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  Would you like to share your feedback with us by rating the Stopwatch on the marketplace?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaip šią programą? Tegul visi kiti nežino!  Ar norite pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje?</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  Please share your feedback with us by rating the Stopwatch on the marketplace.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaip šią programą? Tegul visi kiti nežino!  Prašome pasidalinti savo grįžtamąjį ryšį su mumis, įvertindami chronometras rinkoje.</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemRemoveAdvertising" translate="yes" xml:space="preserve">
+          <source>Remove Advertising</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pašalinti reklamos</target>
+        </trans-unit>
+        <trans-unit id="Resx/RemoveAdvertisingQuestion" translate="yes" xml:space="preserve">
+          <source>Please share your feedback with us by rating the Stopwatch on the marketplace to remove advertising. Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prašome pasidalinti savo atsiliepimus su mumis, įvertindami chronometras rinkoje pašalinti reklamos. Tęsti?</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownAlarm" translate="yes" xml:space="preserve">
+          <source>Countdown Alarm</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Countdown signalizacijos</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownOptions" translate="yes" xml:space="preserve">
+          <source>Countdown Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Countdown parinktys</target>
+        </trans-unit>
+        <trans-unit id="Resx/DefaultCountdownTime" translate="yes" xml:space="preserve">
+          <source>Default Countdown Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Numatytasis Countdown laikas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Record" translate="yes" xml:space="preserve">
+          <source>Record</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Įrašas</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddCountdownQuestion" translate="yes" xml:space="preserve">
+          <source>Please share your feedback with us by rating the Stopwatch on the marketplace to add Countdown functionality. Proceed?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prašome pasidalinti savo atsiliepimus su mumis, įvertindami chronometras rinkoje pridėti Countdown funkcionalumą. Tęsti?</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAddCountdown" translate="yes" xml:space="preserve">
+          <source>Rate to enable countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Norėdami įjungti Atgalinės atskaitos palūkanų normos</target>
+        </trans-unit>
+        <trans-unit id="Resx/CountdownFinished" translate="yes" xml:space="preserve">
+          <source>Countdown Finished!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tas, kurio nėra baigtas!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Countdown" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Countdown</target>
+        </trans-unit>
+        <trans-unit id="Resx/Stopwatch" translate="yes" xml:space="preserve">
+          <source>Stopwatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chronometras</target>
+        </trans-unit>
+        <trans-unit id="Resx/ElapsedTime" translate="yes" xml:space="preserve">
+          <source>Elapsed Time:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Praėjęs laikas:</target>
+        </trans-unit>
+        <trans-unit id="Resx/HowToUnlockCountdown" translate="yes" xml:space="preserve">
+          <source>Use AppBar menu to enable Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">AppBar meniu naudojimas jei norite įjungti Atgalinės atskaitos</target>
+        </trans-unit>
+        <trans-unit id="Resx/DisableLockScreenTimeout" translate="yes" xml:space="preserve">
+          <source>DisableLockScreenTimeout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">DisableLockScreenTimeout</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ne</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">taip</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</source>
+          <target state="new">Best Stop Watch in the Windows Phone Store!
+
+Features include:
+
+* Email Lap and Split Times
+* Running under Lock Screen
+* Disable Lock Screen
+* Both Split and Total Time
+* Large, easy to read clock
+* Landscape support for big numbers
+* Countdown Timer
+
+Download this app today!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>StopWatch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Chronometras</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord2" translate="yes" xml:space="preserve">
+          <source>Timer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikmatis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord3" translate="yes" xml:space="preserve">
+          <source>Countdown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tas, kurio nėra</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_KeyWord4" translate="yes" xml:space="preserve">
+          <source>Workout</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Treniruotės</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Exercise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratimai</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteAllRecordDataMessage" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete all record data?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ar tikrai norite panaikinti visus registracijos duomenis?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteRecordsTitle" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti įrašus</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pirkti!</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application!  </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsų bandomasis pasibaigęs, prašome įsigyti!  </target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source> days remaining in your trial.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dienas likusias savo teismą.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial1" translate="yes" xml:space="preserve">
+          <source>Extend Trial to 10 days by rating the application?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratęsti tyrimo iki 10 dienų, įvertindami taikymą?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Trial2" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pratęsti tyrimo?</target>
+        </trans-unit>
+        <trans-unit id="Resx/YouHave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūs turite </target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>BroughtToYouBy:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BroughtToYouBy:</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
